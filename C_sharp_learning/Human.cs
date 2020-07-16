@@ -10,6 +10,12 @@ namespace C_sharp_learning
     {
         public string Name;
 
+        //FR: Constructor
+        public Human()
+        {
+            this.Name = "What's_In_a_name";
+        }
+
         public void Introduce(string introduceTo)
         {
             Console.WriteLine("Hi {0}, I am {1}.", introduceTo,Name);

@@ -18,6 +18,11 @@ namespace C_sharp_learning
 
             var newHuman = Human.Parse("Rahman");
             Console.WriteLine("The name of the new human is {0}.", newHuman.Name);
+
+            var anotherHuman = new Human();
+            Console.WriteLine("The name of the another human is {0}.", anotherHuman.Name);
+
+
         }
     }
 }
