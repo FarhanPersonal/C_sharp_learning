@@ -14,5 +14,15 @@ namespace C_sharp_learning
         {
             Console.WriteLine("Hi {0}, I am {1}.", introduceTo,Name);
         }
+
+
+        public static Human Parse(string nameOfPersonToBeCreated)
+        {
+            var human = new Human();
+            human.Name = nameOfPersonToBeCreated;
+
+            return human;
+        }
+
     }
 }
