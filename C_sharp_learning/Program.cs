@@ -10,6 +10,11 @@ namespace C_sharp_learning
     {
         static void Main(string[] args)
         {
+            var human = new Human();
+
+            human.Name = "Naveed";
+
+            human.Introduce("Farhan");
         }
     }
 }
